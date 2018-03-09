@@ -12,4 +12,4 @@ cache:
 
 notifications:
   webhooks:
-    - http://srv01.apyos.com:3000
+    - http://srv01.apyos.com:3000/travis
