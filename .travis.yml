@@ -3,7 +3,9 @@ node_js:
   - "8"
 
 install: npm install
-script: npm test
+script:
+  - env
+  - npm test
 
 cache:
   directories:
