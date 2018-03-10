@@ -3,9 +3,7 @@ node_js:
   - "8"
 
 install: npm install
-script:
-  - env
-  - npm test
+script: ./test.sh
 
 cache:
   directories:
@@ -15,5 +13,5 @@ cache:
 notifications:
   webhooks:
     urls:
-      - http://srv01.apyos.com:3000/travis
+      - http://srv01.apyos.com:4000/travis/hook
     on_start: always
