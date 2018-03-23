@@ -13,5 +13,5 @@ cache:
 notifications:
   webhooks:
     urls:
-      - http://srv01.apyos.com:4000/travis/hook
+      - https://artipost.io/travis/hook
     on_start: always
